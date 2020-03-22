@@ -1,0 +1,7 @@
+# Hidden configuration files
+.cproject
+cproject_*
+.settings/
+
+# Compilation results
+/b-l475e-iot01a1_hal_lib/
