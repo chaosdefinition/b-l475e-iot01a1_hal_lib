@@ -367,7 +367,7 @@ def gen_language_settings():
     xml  = '<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n'
     xml += '<project>\n'
     for program in sorted(programs.keys()):
-        xml += '  <configuration id="fr.ac6.managedbuild.config.gnu.cross.exe.release.' + programs[program]['id'] + '" name="' + program + '">\n'
+        xml += '  <configuration id="fr.ac6.managedbuild.config.gnu.cross.lib.release.' + programs[program]['id'] + '" name="' + program + '">\n'
         xml += '    <extension point="org.eclipse.cdt.core.LanguageSettingsProvider">\n'
         xml += '      <provider copy-of="extension" id="org.eclipse.cdt.ui.UserLanguageSettingsProvider"/>\n'
         xml += '      <provider-reference id="org.eclipse.cdt.core.ReferencedProjectsLanguageSettingsProvider" ref="shared-provider"/>\n'
